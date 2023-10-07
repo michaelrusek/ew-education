@@ -1,0 +1,45 @@
+.comment-form-cookies-consent {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  input,
+  label {
+    width: auto !important;
+    margin: 0 !important;
+  }
+}
+
+.wp-block-search__inside-wrapper {
+  input {
+    border: 1px solid #e5e5e5;
+    background: #fff url(../../zminimal/img/searchsubmit.png) no-repeat 96% 13px;
+    padding: 14px 14px;
+    font-size: 11px;
+    color: #999;
+    letter-spacing: 1px;
+  }
+  button {
+    display: none;
+  }
+}
+
+.widget_recent_comments {
+  .avatar {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  position: relative;
+  left: 10px;
+}
+
+#sidebar .wp-block-heading {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3.75px;
+  padding: 12px 14px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-bottom: -20px;
+}

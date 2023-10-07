@@ -28,3 +28,8 @@ function prefix_child_scripts() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri(). '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'prefix_child_scripts' );
+
+function add_scripts() {
+    wp_enqueue_style( 'ew-css', get_stylesheet_directory_uri() . '/build/style.css', false, '1.1', 'all');
+}
+add_action( 'wp_enqueue_scripts', 'add_scripts' );

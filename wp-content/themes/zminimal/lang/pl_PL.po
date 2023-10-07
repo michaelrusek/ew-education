@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZMinimal\n"
 "POT-Creation-Date: 2017-02-07 20:26+0700\n"
-"PO-Revision-Date: 2023-10-06 13:55+0000\n"
+"PO-Revision-Date: 2023-10-07 10:43+0000\n"
 "Last-Translator: \n"
 "Language-Team: Polski\n"
 "Language: pl_PL\n"
@@ -76,15 +76,15 @@ msgstr ""
 
 #: comments.php:42
 msgid "Leave a Reply"
-msgstr ""
+msgstr "Zostaw komentarz"
 
 #: comments.php:43
 msgid "Cancel Reply"
-msgstr ""
+msgstr "Anuluj odpowiedź"
 
 #: comments.php:44
 msgid "Post Comment"
-msgstr ""
+msgstr "Napisz komentarz"
 
 #: content.php:82
 msgid "Continue Reading"
@@ -136,11 +136,11 @@ msgstr "Nowsze wpisy &rarr;"
 
 #: functions.php:239
 msgid "Reply"
-msgstr ""
+msgstr "Odpowiedz"
 
 #: functions.php:240
 msgid "Edit"
-msgstr ""
+msgstr "Edytuj"
 
 #: functions.php:243
 #, php-format
@@ -149,7 +149,7 @@ msgstr ""
 
 #: functions.php:245
 msgid "Comment awaiting approval"
-msgstr ""
+msgstr "Oczekiwanie na potwierdzenie przez administratora"
 
 #: functions.php:267
 msgid "Vafpress Post Formats UI"
@@ -560,15 +560,15 @@ msgstr ""
 
 #: inc/templates/post_pagination.php:12
 msgid "&larr; Previous Post"
-msgstr ""
+msgstr "&larr; Poprzedni wpis"
 
 #: inc/templates/post_pagination.php:23
 msgid "Next Post &rarr;"
-msgstr ""
+msgstr "Następny wpis &rarr;"
 
 #: inc/templates/related_posts.php:25
 msgid "You Might Also Like"
-msgstr ""
+msgstr "Możesz także polubić"
 
 #: inc/widgets/about_widget.php:13
 msgid "A widget displaying your information."

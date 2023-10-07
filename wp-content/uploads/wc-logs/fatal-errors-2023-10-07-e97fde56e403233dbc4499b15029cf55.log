@@ -1,0 +1,24 @@
+2023-10-07T18:32:49+00:00 CRITICAL Uncaught Error: Call to undefined function shoptimizer_get_option() in /var/www/html/wp-content/themes/zminimal-child/single-sfwd-courses.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown w /var/www/html/wp-content/themes/zminimal-child/single-sfwd-courses.php w linii 9
+
+2023-10-07T18:33:18+00:00 CRITICAL Uncaught Error: Call to undefined function shoptimizer_get_option() in /var/www/html/wp-content/themes/zminimal-child/single-sfwd-courses.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown w /var/www/html/wp-content/themes/zminimal-child/single-sfwd-courses.php w linii 9
+
+2023-10-07T18:35:01+00:00 CRITICAL Uncaught Error: Call to undefined function shoptimizer_get_option() in /var/www/html/wp-content/themes/zminimal-child/single-sfwd-courses.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown w /var/www/html/wp-content/themes/zminimal-child/single-sfwd-courses.php w linii 9
+

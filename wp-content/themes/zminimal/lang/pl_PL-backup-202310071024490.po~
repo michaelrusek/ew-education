@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZMinimal\n"
+"POT-Creation-Date: 2017-02-07 20:26+0700\n"
+"PO-Revision-Date: 2023-10-07 10:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.6; wp-6.3.1"
+
+#: 404.php:7
+msgid "404"
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"You may have mis-typed the URL. Or the page has been removed, had its name "
+"changed, or is temporarily unavailable. Perhaps searching can help."
+msgstr ""
+
+#: archive.php:8
+msgid "Browsing Category"
+msgstr ""
+
+#: archive.php:9 archive.php:13 search.php:8 search.php:27 tag.php:8
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: archive.php:12 tag.php:7
+msgid "Browsing Tag"
+msgstr ""
+
+#: archive.php:16
+msgid "All Posts By"
+msgstr ""
+
+#: archive.php:21
+msgid "Daily Archives"
+msgstr ""
+
+#: archive.php:25
+msgid "Monthly Archives"
+msgstr ""
+
+#: archive.php:29
+msgid "Yearly Archives"
+msgstr ""
+
+#: archive.php:33
+msgid "Archives"
+msgstr ""
+
+#: comments.php:7
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:7
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:7
+msgid "Comments"
+msgstr ""
+
+#: comments.php:42
+msgid "Leave a Reply"
+msgstr "Zostaw komentarz"
+
+#: comments.php:43
+msgid "Cancel Reply"
+msgstr "Anuluj odpowiedź"
+
+#: comments.php:44
+msgid "Post Comment"
+msgstr ""
+
+#: content.php:82
+msgid "Continue Reading"
+msgstr ""
+
+#: footer.php:43
+msgid "Crafted with love by ZThemes"
+msgstr ""
+
+#: footer.php:56
+msgid "Keep it simple, stupid."
+msgstr ""
+
+#: footer.php:58
+msgid "Go to top"
+msgstr ""
+
+#: functions.php:168
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:170
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: functions.php:177
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:179 functions.php:188 functions.php:198
+msgid "Widgets in this area will be shown on footer."
+msgstr ""
+
+#: functions.php:186
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:196
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:214
+msgid "Older Posts &rarr;"
+msgstr "Starsze wpisy &rarr;"
+
+#: functions.php:215
+msgid "&larr; Newer Posts"
+msgstr "Nowsze wpisy &rarr;"
+
+#: functions.php:239
+msgid "Reply"
+msgstr ""
+
+#: functions.php:240
+msgid "Edit"
+msgstr ""
+
+#: functions.php:243
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:245
+msgid "Comment awaiting approval"
+msgstr ""
+
+#: functions.php:267
+msgid "Vafpress Post Formats UI"
+msgstr ""
+
+#: functions.php:277
+msgid "WP Instagram Widget"
+msgstr ""
+
+#: functions.php:285
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:294
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/customizer/zminimal_custom_controller.php:45
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:14
+msgid "ZMINIMAL: Theme Options"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:21
+msgid "THEME HELP"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:27
+#: inc/customizer/zminimal_customizer_settings.php:1364
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:28
+msgid "Add your custom CSS which will overwrite the theme CSS"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:33
+msgid "Colors: General"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:34
+msgid "Change color Accent."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:39
+msgid "Colors: Top Bar"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:40
+msgid "Change color on Top Bar."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:45
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:46
+msgid "Settings footer, upload footer logo, footer text..."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:51
+msgid "Social Media Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:52
+msgid "Enter your social media(URL). Icons will not show if left blank."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:57
+msgid "Page Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:58
+msgid "All settings for Page."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:63
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:64
+msgid "All settings for Posts."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:69
+msgid "Promo Box Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:70
+msgid "Add 3 promo boxes."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:75
+msgid "Featured Area Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:76
+msgid "All settings for Featured Slider."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:81
+msgid "Social Icon Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:82
+msgid "Settings Social Icon on right page."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:87
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:88
+msgid "Settings Layout and Sidebar on Homepage, Archives, Post page."
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:567
+msgid "Upload Top Logo"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:579
+msgid "Homepage Layout"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:585
+#: inc/customizer/zminimal_customizer_settings.php:629
+msgid "Full Posts"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:586
+#: inc/customizer/zminimal_customizer_settings.php:630
+msgid "Grid Posts"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:596
+msgid "Grid Layout: Heading"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:609
+msgid "Grid Layout: Sub heading"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:623
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:641
+msgid "Enable Sidebar on Homepage"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:654
+msgid "Enable Sidebar on Posts"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:667
+msgid "Enable Sidebar on Archives"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:682
+msgid "Disable Social Icons"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:697
+msgid "Enable Featured Slider"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:710
+msgid "Select Featured Category"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:723
+msgid "Amount of Slides"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:738
+msgid "Enable Promo Boxes"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:752
+msgid "Promo Box #1 Title"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:765
+msgid "Promo Box #1 Image"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:777
+msgid "Promo Box #1 URL"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:791
+msgid "Promo Box #2 Title"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:804
+msgid "Promo Box #2 Image"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:816
+msgid "Promo Box #2 URL"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:830
+msgid "Promo Box #3 Title"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:843
+msgid "Promo Box #3 Image"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:855
+msgid "Promo Box #3 URL"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:870
+msgid "Hide Category"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:883
+msgid "Hide Date"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:896
+msgid "Hide Tags"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:909
+msgid "Hide Author Box"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:922
+msgid "Hide Related Posts Box"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:935
+msgid "Hide Featured Image from top of Post"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:948
+msgid "Hide Next/Prev Post Navigation"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:961
+msgid "Turn off uppercase in post title"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:976
+msgid "Hide Comments"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:989
+msgid "Hide Share Buttons"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1110
+msgid "Disable Footer Widget Area"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1123
+msgid "Disable Footer Logo Area"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1136
+msgid "Upload Footer Logo"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1149
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1162
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1178
+msgid "Top Bar BG"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1190
+msgid "Top Bar Menu Text Color"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1202
+msgid "Top Bar Menu Text Hover Color"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1215
+msgid "Dropdown BG"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1227
+msgid "Dropdown Border Color"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1240
+msgid "Dropdown Text Color"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1252
+msgid "Dropdown Text Hover BG"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1264
+msgid "Dropdown Text Hover Color"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1277
+msgid "Top Bar Social Icons"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1289
+msgid "Top Bar Social Icons Hover"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1301
+msgid "Top Bar Search BG"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1313
+msgid "Top Bar Search Magnify Color"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1325
+msgid "Top Bar Search BG Hover"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1337
+msgid "Top Bar Search Magnify Hover Color"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1351
+msgid "Accent"
+msgstr ""
+
+#: inc/customizer/zminimal_customizer_settings.php:1377
+msgid "Theme Help!"
+msgstr ""
+
+#: inc/like/index.php:62
+msgid "Like this"
+msgstr ""
+
+#: inc/like/index.php:65
+msgid "You already liked this!"
+msgstr ""
+
+#: inc/templates/post_pagination.php:12
+msgid "&larr; Previous Post"
+msgstr "&larr; Poprzedni wpis"
+
+#: inc/templates/post_pagination.php:23
+msgid "Next Post &rarr;"
+msgstr "Następny wpis &rarr;"
+
+#: inc/templates/related_posts.php:25
+msgid "You Might Also Like"
+msgstr "Możesz także polubić"
+
+#: inc/widgets/about_widget.php:13
+msgid "A widget displaying your information."
+msgstr ""
+
+#: inc/widgets/about_widget.php:15
+msgid "ZTHEMES: About Me"
+msgstr ""
+
+#: inc/widgets/about_widget.php:25
+msgid "About Me"
+msgstr ""
+
+#: inc/widgets/latest_post_widget.php:11
+msgid ""
+"A widget that displays your latest posts from all categories or a certain"
+msgstr ""
+
+#: inc/widgets/latest_post_widget.php:13
+msgid "ZTHEMES: Latest Posts"
+msgstr ""
+
+#: inc/widgets/latest_post_widget.php:102
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/widgets/latest_post_widget.php:107
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/latest_post_widget.php:133
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:11
+msgid "A widget displaying social icons."
+msgstr ""
+
+#: inc/widgets/social_widget.php:13
+msgid "ZTHEMES: Social Icons"
+msgstr ""
+
+#: inc/widgets/social_widget.php:19
+msgid "Follow Me"
+msgstr ""
+
+#: search.php:7 search.php:26
+msgid "Search results for"
+msgstr ""
+
+#: search.php:33
+msgid "Sorry, no posts were found. Try searching for something else."
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
