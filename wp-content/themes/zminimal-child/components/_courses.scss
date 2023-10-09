@@ -1,9 +1,10 @@
 .single.single-sfwd-courses {
   #main {
-    max-width: 960px;
+    max-width: 1000px;
     padding: 0 20px;
     margin: 0 auto;
     padding-top: 150px;
+    box-sizing: border-box;
   }
 
   .post-image,
@@ -22,7 +23,8 @@
 
 @media (max-width: 650px) {
   .course-page {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
     gap: 40px;
   }
 
@@ -54,18 +56,9 @@
 #main .ld-item-lesson-item {
   margin: 0;
   border: none;
-  background: #f6f6f6;
+  background: #fbfbfb;
   margin-bottom: 3px;
   transition: background 0.5s ease;
-}
-
-#main .ld-item-lesson-item:hover {
-  background: #deb8a3;
-  color: #fff;
-}
-
-#main .ld-item-lesson-item:hover .ld-item-name {
-  color: #fff;
 }
 
 #main .ld-item-list-item-preview {
@@ -84,10 +77,6 @@
   margin: 0;
 }
 
-#main .ld-item-name:hover {
-  color: #fff !important;
-}
-
 #main .ld-section-heading h2 {
   font-size: 18px;
   text-transform: uppercase;
@@ -95,7 +84,7 @@
 }
 
 #main .ld-course-status {
-  background: #f6f6f6;
+  background: #fbfbfb;
   flex-direction: column;
   padding: 20px;
 }
@@ -106,16 +95,11 @@
 }
 
 #main .btn-join {
-  background-color: #deb8a3;
+  background-color: #fffbfa;
   font-size: 15px;
   padding: 12px 20px;
   transition: background-color 0.5s ease;
   text-align: center;
-}
-
-#main .btn-join:hover {
-  opacity: 0.9;
-  background-color: #deb8a3;
 }
 
 #main .ld-progress-steps {
@@ -152,7 +136,7 @@
 }
 
 .learndash-wrapper .ld-breadcrumbs {
-  background: #f6f6f6;
+  background: #fbfbfb;
 }
 
 .single-sfwd-lessons #primary {
@@ -187,16 +171,156 @@
   padding: 0;
 }
 
-#main .learndash-course-grid .entry-title a:hover {
-  color: #deb8a3;
-}
-
 #main .learndash-course-grid .content {
-  background: #f6f6f6;
+  background: #fbfbfb;
   padding: 15px 20px;
 }
 
 .learndash-course-grid .items-wrapper .grid-1 .post {
   box-shadow: none !important;
   border: none !important;
+}
+
+.learndash-course-grid {
+  .post {
+    padding: 3px !important;
+    box-shadow: none !important;
+    border: 1px solid #000;
+    border-radius: 0 !important;
+  }
+
+  img {
+    border-radius: 0 !important;
+  }
+
+  .content {
+    padding: 10px 20px 15px !important;
+  }
+
+  .entry-title a {
+    position: static !important;
+    transform: none !important;
+    font-size: 18px !important;
+    width: 100% !important;
+  }
+
+  .button a {
+    background: #000 !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+  }
+}
+
+.course-page-single {
+  padding: 0 20px;
+}
+.course-page-single .site-main {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.ld-expand-button {
+  border-radius: 0 !important;
+}
+
+.learndash-wrapper
+  .ld-item-list.ld-lesson-list
+  .ld-topic-list
+  .ld-table-list-header {
+  padding: 20px !important;
+}
+
+.ld-table-list-title {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center !important;
+  gap: 15px !important;
+}
+
+.learndash-wrapper .ld-table-list .ld-table-list-item {
+  margin: 0 !important;
+}
+
+.learndash-wrapper
+  .ld-topic-list.ld-table-list
+  .ld-table-list-item
+  .ld-table-list-item-preview {
+  align-items: center !important;
+  gap: 15px !important;
+}
+
+.learndash-wrapper .ld-status-incomplete.ld-status-icon {
+  border: 2px solid #e2e7ed !important;
+}
+
+.ld-item-list-item-preview {
+  background: #fff !important;
+  border: 1px solid #000 !important;
+}
+
+.ld-expanded .ld-item-list-item-preview {
+  border-bottom: none !important;
+}
+
+.learndash-wrapper .ld-item-icon {
+  margin-right: 0 !important;
+  font-size: 16px !important;
+}
+
+.ld-item-list-item .ld-item-title {
+  font-size: 16px !important;
+
+  .ld-item-component {
+    font-size: 14px !important;
+    color: #000 !important;
+    margin-top: 0 !important;
+  }
+}
+
+.ld-course-status .btn-join {
+  border-radius: 0 !important;
+  padding: 10px 20px !important;
+  font-size: 15px !important;
+  text-transform: underline !important;
+}
+
+@media (max-width: 768px) {
+  .learndash-wrapper
+    .ld-item-list.ld-lesson-list
+    .ld-topic-list
+    .ld-table-list-item {
+    padding: 0 20px !important;
+  }
+
+  .learndash-wrapper
+    .ld-item-list
+    .ld-item-list-item
+    .ld-item-list-item-preview {
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+}
+
+.course-title-ld {
+  margin-bottom: 10px !important;
+  font-size: 18px !important;
+}
+
+.ld-content-action a,
+.learndash_mark_complete_button {
+  border-radius: 0 !important;
+}
+
+.learndash-wrapper .ld-table-list {
+  border-radius: 0 !important;
+  border: 1px solid #000 !important;
+}
+
+.learndash-wrapper .ld-table-list .ld-table-list-items {
+  border: 0 !important;
+}
+
+.learndash-wrapper .ld-lesson-status {
+  border-radius: 0 !important;
 }

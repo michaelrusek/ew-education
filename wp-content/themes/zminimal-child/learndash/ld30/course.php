@@ -310,6 +310,8 @@ $has_lesson_quizzes = learndash_30_has_lesson_quizzes( $course_id, $lessons ); ?
 </div>
 
 <div class="course-sidebar">
+	<h3 class="course-title-ld"><?php $course = get_post($course_id);
+echo $course->post_title; ?></h3>
 	<?php the_post_thumbnail( 'shop_single' );  ?>
 	<?php 
 		/**
