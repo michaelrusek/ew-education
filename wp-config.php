@@ -107,7 +107,11 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
+
+error_reporting(E_ALL); 
+ini_set('display_errors', 1);
 define( 'WP_DEBUG', true );
+define( 'WP_MEMORY_LIMIT', '256M' );
 
 
 /* Add any custom values between this line and the "stop editing" line. */

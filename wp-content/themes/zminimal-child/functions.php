@@ -33,3 +33,6 @@ function add_scripts() {
     wp_enqueue_style( 'ew-css', get_stylesheet_directory_uri() . '/build/style.css', false, '1.1', 'all');
 }
 add_action( 'wp_enqueue_scripts', 'add_scripts' );
+
+// Remove html tags from contact form
+add_filter('wpcf7_autop_or_not', '__return_false');

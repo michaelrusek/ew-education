@@ -2,6 +2,10 @@ body {
   font-family: Outfit, sans-serif;
 }
 
+.page .post-header {
+  margin-bottom: 40px !important;
+}
+
 .comment-form-cookies-consent {
   margin-bottom: 15px;
   display: flex;
@@ -44,6 +48,13 @@ body {
   margin-bottom: 20px;
   font-weight: 600;
   margin-bottom: -20px;
+}
+
+.search-results .archive-box {
+  margin-bottom: 30px;
+}
+.search-results article {
+  margin-bottom: 50px;
 }
 
 .woocommerce-shop .content-area {
@@ -453,6 +464,104 @@ body {
   width: 70px;
   margin-bottom: 20px;
   background: #fff;
+}
+
+.eform {
+  display: flex;
+  flex-direction: column;
+  background: #f6f6f6;
+  padding: 30px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.eform__row--3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.eform__input {
+  width: 100% !important;
+  border: 1px solid #000 !important;
+  padding: 15px 20px !important;
+  box-sizing: border-box !important;
+  border-radius: 0 !important;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 !important;
+  font-size: 15px !important;
+}
+.eform__label {
+  margin-bottom: 10px !important;
+}
+.eform__required {
+  color: red;
+}
+.eform__button {
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.eform__title {
+  margin-bottom: 10px;
+  font-size: 25px !important;
+  color: #000;
+  font-weight: 400 !important;
+}
+.eform input[type=checkbox] {
+  width: auto !important;
+}
+.eform .wpcf7-acceptance > span {
+  margin: 0 !important;
+}
+
+.wpcf7-not-valid-tip {
+  font-size: 13px !important;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+span .wpcf7-not-valid {
+  border: 1px solid #ff0000 !important;
+}
+
+span.wpcf7-not-valid-tip {
+  display: none;
+}
+
+.invalid .wpcf7-response-output {
+  background: #ffe2e2 !important;
+  border: 1px solid #ff0000 !important;
+  color: #c10000 !important;
+}
+
+div.wpcf7-response-output {
+  margin: 2em 0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+div.wpcf7-validation-errors {
+  display: none !important;
+}
+
+.wpcf7-spam-blocked {
+  background: #e2e2e2;
+  border: 1px solid #bcbcbc !important;
+  color: #383838;
+}
+
+.wpcf7-mail-sent-ng {
+  background: #fcf8e3;
+  border: 1px solid #ac9163 !important;
+  color: #8a6d3b;
+}
+
+.wpcf7-mail-sent-ok {
+  background: #dff0d8;
+  border: 1px solid #3c763d !important;
+  color: #3c763d;
 }
 
 /*# sourceMappingURL=style.css.map */
